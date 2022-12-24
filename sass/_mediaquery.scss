@@ -31,10 +31,11 @@
 
     }
 
-      li {
+     ul li {
         display: flex;
         flex-direction: column;
-        justify-content: left;
+        flex-wrap: wrap;
+        justify-content: center;
         margin-top: 5%;
         margin-left: -8px;
         
