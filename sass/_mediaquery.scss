@@ -236,6 +236,8 @@
         justify-content: left
     }
 
-
+   .evento img {
+    @include sizes (100%, 215px);
+   }
 
 }

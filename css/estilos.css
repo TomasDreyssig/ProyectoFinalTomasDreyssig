@@ -418,4 +418,8 @@ img {
     margin-left: 10%;
     justify-content: left;
   }
+  .evento img {
+    width: 100%;
+    height: 215px;
+  }
 }/*# sourceMappingURL=estilos.css.map */
