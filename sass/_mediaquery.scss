@@ -231,13 +231,13 @@
     }
 
     .fotofesti {
-        @include sizes (100%, 215px);
+        @include sizes (220px, 215px);
         margin-left: 10%;
         justify-content: left
     }
 
     .evento img {
-        @include sizes (100%, 215px);
+        @include sizes (220px, 215px);
     }
 
 }

@@ -413,13 +413,13 @@ img {
     align-items: center;
   }
   .fotofesti {
-    width: 100%;
+    width: 220px;
     height: 215px;
     margin-left: 10%;
     justify-content: left;
   }
   .evento img {
-    width: 100%;
+    width: 220px;
     height: 215px;
   }
 }/*# sourceMappingURL=estilos.css.map */
