@@ -275,7 +275,7 @@ img {
     height: 15%;
     margin-left: 52px;
   }
-  ul li {
+  li {
     display: flex;
     flex-direction: column;
     justify-content: left;
