@@ -7,53 +7,50 @@ body {
     background-color: rgb(215, 235, 253);
 }
 
-    ul { 
+ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 170%;
-    
-    li{
-    font-family: 'Oswald', sans-serif;
-    font-style: oblique;
-    margin-top: -64px;
-    
-    
-    
-}
+
+    li {
+        font-family: 'Oswald', sans-serif;
+        font-style: oblique;
+        margin-top: -64px;
+
+
+
+    }
 
     a {
 
-    text-decoration: none;
-    color:rgb(48, 48, 48)
-    
-    
-   
+        text-decoration: none;
+        color: rgb(48, 48, 48)
+    }
+
+
+
+
+
 }
 
-
-    
-
-  
-}
-
-header{
+header {
     background-color: rgba(255, 0, 0, 0.644);
 }
 
 footer {
-  
+
     margin-top: 3%;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(224,12,12,1) 100%);
-    
-    
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(224, 12, 12, 1) 100%);
+
+
 }
 
 
 .buttons a {
-    
+
     text-decoration: none;
     font-size: 25px;
     width: 50px;
@@ -63,10 +60,10 @@ footer {
     margin-left: 75px;
     margin-top: 10px;
 
-  
-   
-    
-    
-    
-    
+
+
+
+
+
+
 }

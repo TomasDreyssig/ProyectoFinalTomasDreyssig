@@ -9,45 +9,39 @@ p {
     margin-left: 6px;
 
 }
-    
+
 
 .segundoparrafo {
-        @include margin (3%);
+    @include margin (3%);
 
-        display: $pdisplay;
-        justify-content: right;
-        color: $pcolor;
-        font-size: 112%;
-        font-family: 'Source Sans Pro', sans-serif;
-    
-    }
+    display: $pdisplay;
+    justify-content: right;
+    color: $pcolor;
+    font-size: 112%;
+    font-family: 'Source Sans Pro', sans-serif;
 
-    .parrafofoto {
-        @include margin (3%); 
+}
 
-        display: $pdisplay;
-        justify-content: flex-start;
-    }
+.parrafofoto {
+    @include margin (3%);
 
-    .parrats {
-        font-family: 'Nerko One', cursive;
-        margin-left: 10px;
-    
-    }
+    display: $pdisplay;
+    justify-content: flex-start;
+}
 
-    .pfestival a {
-        @include margin (2%);
-        
-        display: $pdisplay;
-        justify-content: flex-start;
-        text-decoration: dashed;
-        color: black;
-        font-size: 25px;
-        font-family: 'Signika Negative', sans-serif;
-    }
-   
+.parrats {
+    font-family: 'Nerko One', cursive;
+    margin-left: 10px;
 
-   
+}
 
-   
+.pfestival a {
+    @include margin (2%);
 
+    display: $pdisplay;
+    justify-content: flex-start;
+    text-decoration: dashed;
+    color: black;
+    font-size: 25px;
+    font-family: 'Signika Negative', sans-serif;
+}
