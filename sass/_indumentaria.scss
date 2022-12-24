@@ -1,0 +1,46 @@
+.container-ind {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 21px;
+    margin-top: 2%;
+   
+}
+
+.container-ind img {
+    @include sizes (677px, 558px);
+    margin-left: 12%;
+    margin-top: 0%;
+
+}
+
+.ropaimg1 {
+    margin-left: 50px;
+}
+
+.ropaimg2 {
+    margin-left: -160px;
+}
+
+.ropaimg3 {
+    margin-left: 50px;
+}
+
+.ropaimg4 {
+    margin-left: -160px;
+}
+
+.ropaimg5 {
+    margin-left: 50px;
+}
+
+.ropaimg6 {
+    margin-left: -160px;
+}
+
+
+   
+   
+

@@ -1,0 +1,235 @@
+/*media query para dispositivos medianos Home*/
+@media screen and (max-width: 765px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    img {
+        width: 77%;
+        height: 20%;
+        margin-left: 65px;
+
+
+    }
+
+    ul li {
+        margin-right: -23px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    img {
+        width: 80%;
+        height: 15%;
+        margin-left: 52px;
+
+    }
+
+     ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-top: 5%;
+        margin-left: -8px;
+        
+    
+} 
+}
+
+
+
+
+/*media query para dispositivos medianos Fotografias*/
+@media screen and (max-width: 765px) {
+
+    .container-fotos {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+
+    }
+
+   .container-fotos img {
+    margin-left: 25%;
+   }
+
+}
+
+
+/*media query para disposivos pequeños Fotografias*/
+@media screen and (max-width: 576px) {
+
+    .container-fotos {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        
+
+    }
+
+    .container-fotos img {
+        margin-left: 15%;
+    }
+}
+
+
+
+/*memdia query para dispositivos medianos indumentaria*/
+@media screen and (max-width: 765px) {
+
+
+    .container-ind {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-right: 120px;
+    }
+
+    .container-ind img {
+        width: 600px;
+        height: 500px;
+
+    }
+
+    .ropaimg1 {
+        margin-left: 0px;
+    }
+
+    .ropaimg2 {
+        margin-left: 0px;
+    }
+
+    .ropaimg3 {
+        margin-left: 0px;
+    }
+
+    .ropaimg4 {
+        margin-left: 0px;
+    }
+
+    .ropaimg5 {
+        margin-left: 0px;
+    }
+
+    .ropaimg6 {
+        margin-left: 0px;
+    }
+
+}
+
+/*media query para dispositivos pequeños indumentaria*/
+@media screen and (max-width: 576px) {
+   
+    ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-top: 5%;
+        margin-left: -8px;
+    }
+
+    .container-ind {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .container-ind img {
+        width: 90%;
+        height: auto;
+        margin-left: 19%;
+    }
+
+
+}
+
+
+
+
+
+
+/*media query para dispositivos pequeños Artistas*/
+@media screen and (max-width:576px) {
+
+    .container img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/*media query para dispositivos medianos Artistas*/
+
+@media screen and (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+
+    .container img {
+        @include sizes (274px, 250px);
+        margin-left: 30px;
+
+
+    }
+
+}
+
+/*media query para dispositivos medianos Festivales */
+
+@media screen and (max-width:768px) {
+    .container-fiesta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+
+
+    }
+
+    .fotofesti {
+        @include sizes (500px, 350px);
+
+    }
+
+    .evento {
+        margin-left: 22%;
+    }
+}
+
+/*media query para dispositivos pequeños Festivales */
+@media screen and (max-width:576px) {
+    .container-fiesta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fotofesti {
+        @include sizes (100%, 215px);
+        margin-left: 10%;
+        justify-content: left
+    }
+
+
+
+}
